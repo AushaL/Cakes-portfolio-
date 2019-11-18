@@ -49,3 +49,10 @@ body {
 a {
     text-decoration: none;
 }
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    padding-left: 75px;
+    padding-right: 75px;
+}
