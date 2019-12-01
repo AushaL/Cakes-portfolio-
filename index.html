@@ -12,6 +12,7 @@
     <header class="main-header">
         <div class="container">
             <p class="main-header__logo logo">Cakes</p>
+            <div class="burger-toggle"></div>
             <ul class="main-header__navigation main-navigation">
                 <li class="main-navigation__item"><a class="main-navigation__link" href="#catalog">Наши торты</a></li>
                 <li class="main-navigation__item"><a class="main-navigation__link" href="#individual-order">Индивидуальный заказ</a></li>
@@ -41,20 +42,20 @@
                 <div class="cake-list__item cake-list__item--large">
                     <h3 class="cake-item__name">Классические</h3>
                     <p class="cake-item__number">24 вида</p>
-                    <img src="img/catalog-cake-classic.jpg" alt="Классические">
+                    <img class="cake-item__img--large" src="img/catalog-cake-classic.jpg" alt="Классические">
                     <a class="cake-item__link" href="#">Смотреть</a>                    
                 </div>
                 <div class="cake-list__column">
                     <div class="cake-list__item">
                         <h3 class="cake-item__name">Муссовые</h3>
                         <p class="cake-item__number">12 видов</p>
-                        <img src="img/catalog-cake-muss.jpg" alt="Муссовые">
+                        <img class="cake-item__img" src="img/catalog-cake-muss.jpg" alt="Муссовые">
                         <a class="cake-item__link" href="#"></a>
                     </div>
                     <div class="cake-list__item">
                         <h3 class="cake-item__name">Свадебные</h3>
                         <p class="cake-item__number">20 видов</p>
-                        <img src="img/catalog-cake-wedding.jpg" alt="Свадебные">
+                        <img class="cake-item__img" src="img/catalog-cake-wedding.jpg" alt="Свадебные">
                         <a class="cake-item__link" href="#"></a>
                     </div>
                 </div>
@@ -62,20 +63,20 @@
                     <div class="cake-list__item">
                         <h3 class="cake-item__name">Мужчинам</h3>
                         <p class="cake-item__number">12 видов</p>
-                        <img src="img/catalog-cake-men.jpg" alt="Мужчинам">
+                        <img class="cake-item__img" src="img/catalog-cake-men.jpg" alt="Мужчинам">
                         <a class="cake-item__link" href="#"></a>
                     </div>
                     <div class="cake-list__item">
                         <h3 class="cake-item__name">Женщинам</h3>
                         <p class="cake-item__number">16 видов</p>
-                        <img src="img/catalog-cake-women.jpg" alt="Женщинам">
+                        <img class="cake-item__img" src="img/catalog-cake-women.jpg" alt="Женщинам">
                         <a class="cake-item__link" href="#"></a>
                     </div>
                 </div>
                 <div class="cake-list__item cake-list__item--large cake-list__item--children">
                     <h3 class="cake-item__name">Детям</h3>
                     <p class="cake-item__number">18 видов</p>
-                    <img src="img/catalog-cake-children.jpg" alt="Детям">
+                    <img class="cake-item__img--large" src="img/catalog-cake-children.jpg" alt="Детям">
                     <a class="cake-item__link" href="#"></a>
                 </div>
             </div>
@@ -91,11 +92,13 @@
                     </div>
                     <div class="individual-order__column-right">
                         <img class="individual-order__image" src="img/cake-filling.jpg" alt="Шоколадный ганащ">
-                        <h3 class="cake-filling__name">Шоколадный ганаш</h3>
-                        <p class="cake-filling__text">Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
-                        <p class="cake-filling__price">1000 руб/кг</p>
-                        <a class="btn cake-filling__btn" href="#">Выбрать</a>
-                        <span class="slider-page-number">1/12</span>
+                        <div class="individual-order__text-container">
+                            <h3 class="cake-filling__name">Шоколадный ганаш</h3>
+                            <p class="cake-filling__text">Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!</p>
+                            <p class="cake-filling__price">1000 руб/кг</p>
+                            <a class="btn cake-filling__btn" href="#">Выбрать</a>
+                            <span class="slider-page-number">1/12</span>
+                        </div>
                     </div>
                 </div>
                 <div class="slider-controls">
@@ -320,8 +323,8 @@
                 <li class="main-navigation__item"><a href="#">Контакты</a></li>
             </ul>
             <ul class="main-footer__socials socials">
-                <li class="socials__item socials__item--instagram"></li>
-                <li class="socials__item socials__item--vkontakte"></li>
+                <li class="socials__item socials__item--instagram"><a href="#"></a></li>
+                <li class="socials__item socials__item--vkontakte"><a href="#"></a></li>
             </ul>
         </div>
         <p class="main-footer__copyright">&copy; 2018 Cakes</p>
